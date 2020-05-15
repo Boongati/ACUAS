@@ -1,0 +1,293 @@
+* {
+	box-sizing: border-box;
+	}
+
+#Logo {
+	margin: 10% 10%;
+	float: left;
+	width: 32%;
+	min-width: 30%;
+	}
+	
+	
+h1 {
+	margin-top: 150px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 170%;
+	}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;	
+	}
+	
+#statement {
+	font-style: italic;
+	}
+
+.Buttons {
+	margin: 0px 35px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #a21a1a9c;
+	color: white;
+	border-radius: 12px;
+	text-align: center;
+	vertical-align: central;
+	}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+  background-color: #B80133;
+  font-family: 'Raleway', sans-serif;	
+  padding: 10px 20px;
+  margin: 0px 10px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #B80133;
+}
+
+/* mouse over link */
+a:hover {
+  color: #B80133;
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+  background-color: #white;
+}
+
+#LeftButton {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	}
+
+#RightButton {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	}
+	
+
+	
+body {
+	animation: bg-animation 50s infinite;
+	-webkit-animation-timing-function: cubic-bezier(0.82,0,0.48,0.82);
+	-moz-animation-timing-function: cubic-bezier(0.82,0,0.48,0.82);
+	-ms-animation-timing-function: cubic-bezier(0.82,0,0.48,0.82);
+	text-align: center; 
+	}
+
+/*.container1 {
+	animation: bg-animation 50s infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	} */
+
+@-webkit-keyframes bg-animation {
+  0% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  15% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  30% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  45% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  60% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  75% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  90% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  100% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+}
+
+@-moz-keyframes bg-animation {
+  0% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  15% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  30% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  45% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  60% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  75% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  90% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  100% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+}
+
+@-ms-keyframes bg-animation {
+  0% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  15% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  30% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  45% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  60% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  75% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+  90% {
+    background: linear-gradient(48deg, rgba(60,91,98,1) 0%, rgba(0,57,113,1) 23%, rgba(148,122,116,1) 100%);
+  }
+  100% {
+    background: linear-gradient(27deg, rgba(170,20,48,0.4598214285714286) 0%, rgba(148,122,116,1) 19%, rgba(0,57,113,1) 100%);
+  }
+}
+
+
+.container2 {
+	background-color: white;
+/*	height: 1330px; */
+	height: 180%;
+	text-align: center;
+	}
+	
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 170%;
+	text-align: center; 
+	}
+
+#firstcard {
+	float: left;
+	margin: 20px 0px;
+	height: 350px;
+	margin-left: 105px;
+	}
+	
+#secondcard {
+	float: left;
+	margin: 20px 0px;
+	height: 350px;
+	margin-left: 105px;
+	}
+	
+#thirdcard {
+	float: left;
+	margin: 20px 0px;
+	height: 350px;
+	margin-left: 105px;
+	}
+	
+#fourthcard {
+	float: left;
+	margin: 20px 0px;
+	margin-left: 105px;
+	height: 350px;
+	}
+
+#fifthcard {
+	float: left;
+	margin: 20px 0px;
+	margin-left: 105px;
+	height: 350px;
+	}	
+
+#descriptor {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 300;	
+	}
+	
+/*These cards display the services offered by ACUAS */
+.card {
+  text-decoration: none;
+  color: #2C2E41;
+  max-width: 300px;
+  background: #fffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(44, 46, 65, .15);
+  transition: all .3s ease-in-out;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.cardcontainer {
+  padding: 2px 16px;
+}
+
+
+#thirdheader {
+	clear: both;
+	font-size: 20px;
+	text-align: center; 
+	}
+	
+#salesforce {
+	width: 17%;
+	min-width: 12%;
+	margin: 0px 40px;
+	}
+	
+#excel {
+	width:18%;
+	min-width: 12%;
+	margin: 0px 40px;
+	}
+
+#ContactButton{
+	padding: 8px 28px;
+	clear: both;
+	
+	animation: bg-animation 50s infinite;
+	-webkit-animation-timing-function: cubic-bezier(0.82,0,0.48,0.82);
+	text-align: center;
+	}
+
+#footerTag {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #ffff;
+	text-align: center;
+	clear: both;
+	}
