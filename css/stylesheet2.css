@@ -20,6 +20,11 @@ body {
 	height: 255px;
 		}
 	}
+@media (-webkit-max-width:1000px){
+	#container1{
+	height: 255px;
+		}
+	}
 
 #background {
 	width: 100%;
@@ -29,6 +34,12 @@ body {
 	}
 
 @media (max-width:1000px){
+	#background{
+		width: 1200px;
+		position: center; 
+		}
+	}
+@media (-webkit-max-width:1000px){
 	#background{
 		width: 1200px;
 		position: center; 
@@ -48,9 +59,20 @@ body {
 		width: 60%;
 		}
 	}
+@media (-webkit-max-width:1000px){
+	#Acuas{
+		top: 45%;
+		width: 60%;
+		}
+	}
 	
 	
 @media (min-width:1200px){
+	#Acuas{
+		top: 55%;
+		}
+	}
+@media (-webkit-min-width:1200px){
 	#Acuas{
 		top: 55%;
 		}
@@ -78,6 +100,9 @@ p {
  .searchform {
   background:#f4f4f4;
   background:rgba(244,244,244,.79);
+  -moz-background:#f4f4f4;
+  -webkit-background:#f4f4f4;
+  -o-background:#f4f4f4;
   border: 1px solid #d3d3d3;
 	left: 47%;
   padding: 2px 5px;
@@ -100,9 +125,21 @@ p {
 		left: 45%;
 		}
 	}
+@media (-webkit-max-width:1000px){
+	.searchform{
+		top: 40%;
+		width: 93%;
+		left: 45%;
+		}
+	}
 	
 	
 @media (min-width:1200px){
+	.searchform{
+		top: 65%;
+		}
+	}
+@media (-webkit-min-width:1200px){
 	.searchform{
 		top: 65%;
 		}
@@ -114,6 +151,10 @@ p {
 }
 .searchform input {
 	background:#fefefe;
+	background:rgba(254,254,254);
+  -moz-background:#fefefe;
+  -webkit-background:#fefefe;
+  -o-background:#fefefe;
 	border: none;
 	font:14px/14px 'Raleway', sans-serif;
 	margin-right: 5px;
@@ -128,6 +169,12 @@ p {
 }
 
 @media (max-width:1000px){
+	.searchform input{
+		font:13px/13px 'Raleway', sans-serif;
+		width: 65%;
+		}
+	}
+@media (-webkit-max-width:1000px){
 	.searchform input{
 		font:13px/13px 'Raleway', sans-serif;
 		width: 65%;
@@ -187,6 +234,11 @@ p {
 		font:13px/13px 'Raleway', sans-serif;
 		}
 	}
+@media (-webkit-max-width:1000px){
+	.searchform button{
+		font:13px/13px 'Raleway', sans-serif;
+		}
+	}
 	
 /*	
 @media (min-width:1200px){
@@ -215,9 +267,22 @@ p {
 		font-size: 100%;
 		}
 	}
+@media (-webkit-max-width:1000px){
+	#statement{
+		top: 50%;
+		width: 83%;
+		left: 10%;
+		font-size: 100%;
+		}
+	}
 	
 	
 @media (min-width:1200px){
+	#statement{
+		top: 75%;
+		}
+	}
+@media (-webkit-min-width:1200px){
 	#statement{
 		top: 75%;
 		}
