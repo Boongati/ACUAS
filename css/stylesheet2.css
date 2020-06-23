@@ -10409,10 +10409,22 @@ header.masthead h1 {
 	border-radius: 25px;
 /*	float: left; */
 /*	margin: 5px 20px; */
-  } 
+  }
+@media all and (max-width: 479px) {
+ .logos {
+ border-radius: 10px;
+ width: 85%;
+ }
+} 
 
 .institutionBox{
 	width: 33%;
 	height: 30%;
 	margin: 10px 0px;
 	}
+@media all and (max-width: 479px) {
+ .institutionBox {
+ 	width: 50%;
+	margin: 25px 0px;
+ }
+} 
