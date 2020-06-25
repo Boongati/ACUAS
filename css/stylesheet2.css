@@ -165,7 +165,7 @@ a {
 }
 a:hover {
   color: #D87685;
-  text-decoration: underline;
+ /* text-decoration: underline; */
 }
 
 a:not([href]) {
@@ -10443,3 +10443,16 @@ header.masthead h1 {
 	margin: 25px 0px;
  }
 } 
+
+#exploreButton{
+	padding: 10px 30px;
+	background-color: #0097a7;
+	border-radius: 15px;
+	color: #ffffff;
+	}
+
+#exploreButton:hover{
+	background-color: #ffffff;
+	color: #0097a7;
+	font-weight:600;
+	}
